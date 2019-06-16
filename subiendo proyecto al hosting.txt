@@ -1,0 +1,6 @@
+
+DATABASE
+host: localhost
+name: 4kpagos -> id9749246_4kpagos
+user: Humberto -> id9749246_humberto
+pswd: humberto123
