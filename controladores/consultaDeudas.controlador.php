@@ -1,7 +1,7 @@
 <?php 
 
 class ControladorConsultarDeudas{
-    
+   
     /*=============================================
 	CONSULTAR DEUDAS              
     =============================================*/
@@ -16,27 +16,18 @@ class ControladorConsultarDeudas{
             $fechaI = $_POST["fechaI"];
             $fechaF = $_POST["fechaF"];
 
-            echo $fechaI, $fechaF;
+            //echo $fechaI, $fechaF;
             
-            //$respuesta = ModeloRegistroCobros::mdlInsertarCobro($tabla, $id, $concepto, $monto, $estado);
-            
+            $respuesta = ModeloConsultaDeudas::mdlConsultaDeuda($tabla, $fechaI, $fechaF);
+
             // var_dump($respuesta);
 
-            // echo '<br><br>';
+            return $respuesta;         
             
-            // if ($respuesta == "ok") {
-                
-            //     echo '¡El usuario se ha guardado correctamente!';
-                
-            // } else{
-
-            //     echo '¡Error: El usuario no se guardó!';
-
-            // }
-
         }
 
     }
+
 
 }
 
