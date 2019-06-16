@@ -21,7 +21,7 @@ class ControladorRegistroPagos{
 
             $respuesta = ModeloRegistroPagos::mdlRegistroPago($tabla, $idDeudor, $idDeuda, $cantidadPagada);
 
-            var_dump($respuesta);
+            //var_dump($respuesta);
 
             echo '<br><br>';
             

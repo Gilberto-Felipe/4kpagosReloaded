@@ -62,7 +62,7 @@ session_start();
         $_GET["ruta"] == "registroUsuarios" ||      
         $_GET["ruta"] == "registroCobros" ||
         $_GET["ruta"] == "registroPagos" ||
-        $_GET["ruta"] == "ConsultaDeudas" ||
+        $_GET["ruta"] == "consultaDeudas" ||
         $_GET["ruta"] == "consultaTiempo" ||
         $_GET["ruta"] == "ReporteUsuario" ||
         $_GET["ruta"] == "salir")  {

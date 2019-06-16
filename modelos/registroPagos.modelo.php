@@ -18,7 +18,7 @@ class ModeloRegistroPagos {
         $stmt -> bindParam(":id_deuda", $idDeudor, PDO::PARAM_STR);
         $stmt -> bindParam(":cantidadPagada", $cantidadPagada, PDO::PARAM_STR);
 
-        $stmt-> debugDumpParams();
+        //$stmt-> debugDumpParams();
 
         if ($stmt->execute()){
             
